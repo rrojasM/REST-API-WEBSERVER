@@ -1,1 +1,8 @@
-console.log('Hola mundo');
+require('dotenv').config();
+const Server = require('./model/server');
+
+const server = new Server();
+server.lister();
+
+
+
